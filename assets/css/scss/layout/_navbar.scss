@@ -36,6 +36,16 @@
       height: 28px;
     }
   }
+  &.transparent-navbar {
+    background-color: transparent !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    .navbar-brand {
+      background-color: #000;
+    }
+  }
   @media (max-width: 575.98px) {
     .navbar-brand {
       width: 110px !important;

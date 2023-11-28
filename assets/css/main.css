@@ -79,6 +79,16 @@ svg {
 .navbar .navbar-toggler img {
   height: 28px;
 }
+.navbar.transparent-navbar {
+  background-color: transparent !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.navbar.transparent-navbar .navbar-brand {
+  background-color: #000;
+}
 @media (max-width: 575.98px) {
   .navbar .navbar-brand {
     width: 110px !important;
@@ -179,6 +189,47 @@ footer .copyrights p {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
+}
+
+.images-wrapper {
+  background-color: #000;
+}
+.images-wrapper .col-image {
+  border-radius: 10px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 179px;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  max-height: 903px;
+  max-width: 100%;
+}
+.images-wrapper .col-image-1 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.57)), url("../images/1.png");
+}
+.images-wrapper .col-image-2 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.57)), url("../images/2.jpeg");
+}
+.images-wrapper .col-image-3 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.57)), url("../images/3.jpeg");
+}
+.images-wrapper .btn-outline-primary {
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid var(--main-color);
+  background: #000;
+  color: white;
+  width: 213px;
+}
+.images-wrapper .btn-outline-primary:hover {
+  background-color: var(--main-color);
 }
 
 .btn-primary {
