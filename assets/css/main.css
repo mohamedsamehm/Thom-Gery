@@ -79,6 +79,13 @@ svg {
 .navbar .navbar-toggler img {
   height: 28px;
 }
+@media (max-width: 575.98px) {
+  .navbar .navbar-brand {
+    width: 110px !important;
+    height: 110px !important;
+    padding: 6px !important;
+  }
+}
 @media (max-width: 991.98px) {
   .navbar .contact-us-btn {
     order: 1;
@@ -100,7 +107,7 @@ svg {
     order: 3;
   }
 }
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .navbar .contact-us-btn {
     height: 40px !important;
     padding: 15px !important;
@@ -152,6 +159,9 @@ footer .footer-info .footer-info-row p {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
+}
+footer .footer-info .footer-info-row a {
+  color: inherit;
 }
 footer .footer-info .footer-info-row .icons {
   display: flex;

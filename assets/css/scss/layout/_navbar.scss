@@ -36,6 +36,13 @@
       height: 28px;
     }
   }
+  @media (max-width: 575.98px) {
+    .navbar-brand {
+      width: 110px !important;
+      height: 110px !important;
+      padding: 6px !important;
+    }
+  }
   @media (max-width: 991.98px) {
     .contact-us-btn {
       order: 1;
@@ -57,7 +64,7 @@
       order: 3;
     }
   }
-  @media (min-width: 992px) and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     .contact-us-btn {
       height: 40px !important;
       padding: 15px !important;
