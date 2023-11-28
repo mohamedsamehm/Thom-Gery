@@ -1,0 +1,15 @@
+.btn-primary {
+  background-color: var(--main-color) !important;
+  border: 1px solid var(--main-color) !important;
+  color: white !important;
+  padding: 15px 30px !important;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include prefix(transition, all 0.2s);
+  &:hover {
+    border-color: var(--main-color-hover) !important;
+    background-color: var(--main-color-hover) !important;
+  }
+}

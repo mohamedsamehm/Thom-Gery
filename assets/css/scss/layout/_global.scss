@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+  @media (max-width: 991px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+a,
+a:active,
+a:focus,
+a:hover {
+  outline: 0;
+  text-decoration: none;
+}
+
+img,
+svg {
+  // height: auto;
+  max-width: 100%;
+}
+.logo {
+  object-fit: cover;
+}
+
+.test {
+  height: 430px;
+}
