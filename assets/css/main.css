@@ -64,6 +64,7 @@ svg {
   justify-content: center;
   align-items: center;
   padding: 12px !important;
+  background-color: #000;
 }
 .navbar .navbar-nav {
   gap: 40px;

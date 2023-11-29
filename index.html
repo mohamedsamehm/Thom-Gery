@@ -13,7 +13,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-black transparent-navbar">
+    <!-- <nav class="navbar navbar-expand-lg bg-black transparent-navbar">
       <div class="container">
         <a class="navbar-brand p-0" href="#">
           <img src="assets/images/logo.png" alt="Logo" width="216" height="51"
@@ -72,6 +72,68 @@
         </div>
         <button class="btn btn-primary contact-us-btn">Contact
           us</button>
+      </div>
+    </nav> -->
+    <nav class="navbar bg-transparent position-absolute w-100">
+      <div class="container">
+        <button class="btn btn-primary contact-us-btn">Contact
+          us</button>
+        <a class="navbar-brand p-0 circle-logo" href="#">
+          <img src="assets/images/logo.png" alt="Logo" width="216" height="51"
+            class="logo">
+        </a>
+        <button class="navbar-toggler border-0" type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation">
+          <img src="assets/images/navbar-toggler.svg" alt="navbar-toggler">
+        </button>
+        <div class="offcanvas offcanvas-top text-bg-dark h-100 bg-black"
+          tabindex="-1"
+          id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header p-4">
+            <button
+              class="btn btn-primary contact-us-btn order-first d-none d-sm-flex">Contact
+              us</button>
+            <a class="navbar-brand circle-logo d-none d-sm-flex" href="#">
+              <img src="assets/images/logo.png" alt="Logo" width="216"
+                height="51"
+                class="logo">
+            </a>
+            <button type="button" class="btn order-last ms-auto ms-sm-0"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close">
+              <img src="assets/images/close.svg"
+                class="logo" width="25">
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Interior Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Real Estate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Construction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Join us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
     <section class="row g-0 images-wrapper">
