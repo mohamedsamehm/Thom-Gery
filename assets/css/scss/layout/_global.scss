@@ -24,13 +24,17 @@ a:hover {
 
 img,
 svg {
-  // height: auto;
   max-width: 100%;
-}
-.logo {
-  object-fit: cover;
+  height: auto;
 }
 
-.test {
-  height: 430px;
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1280px !important;
+  }
 }

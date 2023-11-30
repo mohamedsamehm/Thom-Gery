@@ -10,7 +10,6 @@
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    max-height: 903px;
     max-width: 100%;
   }
   .col-image-1 {
@@ -19,7 +18,7 @@
         rgba(0, 0, 0, 0.57) 0%,
         rgba(0, 0, 0, 0.57)
       ),
-      url("../images/1.png");
+      url("../images/1.webp");
   }
   .col-image-2 {
     background: linear-gradient(
@@ -27,7 +26,7 @@
         rgba(0, 0, 0, 0.57) 0%,
         rgba(0, 0, 0, 0.57)
       ),
-      url("../images/2.jpeg");
+      url("../images/2.webp");
   }
   .col-image-3 {
     background: linear-gradient(
@@ -35,7 +34,7 @@
         rgba(0, 0, 0, 0.57) 0%,
         rgba(0, 0, 0, 0.57)
       ),
-      url("../images/3.jpeg");
+      url("../images/3.webp");
   }
   .btn-outline-primary {
     height: 60px;
