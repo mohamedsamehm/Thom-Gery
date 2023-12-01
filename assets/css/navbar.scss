@@ -78,7 +78,7 @@
         align-items: center;
         justify-content: center !important;
         height: 100%;
-        margin: auto !important;
+        margin: 104px auto 0 !important;
         max-width: 873px;
         max-height: 329px;
         .nav-item {
@@ -97,6 +97,9 @@
   }
   &.navbar-2 {
     padding: 33px 0 0 0;
+    --padding: 33px;
+    --logoWidth: 136px;
+    height: calc(var(--padding) + var(--logoWidth));
     .contact-us-btn {
       z-index: 100;
     }
@@ -112,6 +115,12 @@
       padding: 12px !important;
       background-color: #000;
       z-index: 100;
+      position: absolute;
+      left: 50%;
+      top: 33px;
+      right: 0;
+      margin: auto;
+      transform: translateX(-50%);
       img {
         object-fit: contain;
       }
@@ -137,7 +146,7 @@
       justify-content: space-between !important;
       height: 100%;
       width: 100%;
-      margin: auto !important;
+      margin: 170px auto 0 !important;
       max-width: 873px;
       max-height: 329px;
       .nav-item {
@@ -170,6 +179,7 @@
       }
     }
     @media (max-width: 992px) {
+      --logoWidth: 110px;
       .navbar-brand {
         width: 110px;
         height: 110px;
@@ -193,10 +203,13 @@
     }
     @media (max-width: 576px) {
       padding: 12px 0;
+      --padding: 12px;
+      --logoWidth: 80px;
       .navbar-brand {
         width: 80px;
         height: 80px;
         padding: 8px !important;
+        top: 12px;
       }
     }
   }

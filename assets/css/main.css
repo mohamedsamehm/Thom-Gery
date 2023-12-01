@@ -56,7 +56,7 @@ svg {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding-bottom: 179px;
+  padding-bottom: 10.97%;
   background-position: center center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -81,7 +81,8 @@ svg {
   border: 1px solid var(--main-color);
   background: #000;
   color: white;
-  width: 213px;
+  max-width: 213px;
+  width: 100%;
 }
 .images-wrapper .btn-outline-primary:hover {
   background-color: var(--main-color);
