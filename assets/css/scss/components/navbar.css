@@ -35,6 +35,7 @@
 @media (max-width: 992px) {
   .navbar.navbar-1 {
     padding: 12px 0;
+    height: 104px;
   }
   .navbar.navbar-1 .contact-us-btn {
     z-index: 100;
@@ -51,6 +52,11 @@
     padding: 8px !important;
     background-color: #000;
     z-index: 100;
+    position: absolute;
+    left: 50%;
+    top: 12px;
+    right: 0;
+    transform: translateX(-50%);
   }
   .navbar.navbar-1 .navbar-brand img {
     -o-object-fit: contain;
@@ -118,7 +124,6 @@
   left: 50%;
   top: 33px;
   right: 0;
-  margin: auto;
   transform: translateX(-50%);
 }
 .navbar.navbar-2 .navbar-brand img {
@@ -193,7 +198,7 @@
 }
 @media (max-width: 576px) {
   .navbar.navbar-2 {
-    padding: 12px 0;
+    padding: 12px 0 0 0;
     --padding: 12px;
     --logoWidth: 80px;
   }

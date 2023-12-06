@@ -9,16 +9,19 @@
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/scss/components/navbar.css">
+    <link rel="stylesheet" href="assets/css/scss/components/footer.css">
+    <link rel="stylesheet" href="assets/css/scss/pages/home.css">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-1 navbar-expand-lg bg-black">
+    <nav class="navbar navbar-2 bg-transparent position-absolute w-100">
       <div class="container">
-        <a class="navbar-brand p-0" href="#">
-          <img src="assets/images/logo.webp" alt="Logo" width="216" height="51"
+        <button class="btn btn-primary contact-us-btn">Contact
+          us</button>
+        <a class="navbar-brand p-0" href="/">
+          <img src="assets/images/logo.webp" alt="Logo" width="120"
             class="logo">
         </a>
         <button class="navbar-toggler border-0 p-0 shadow-none collapsed"
@@ -33,7 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav justify-content-between ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about-us.html">About us</a>
@@ -48,81 +51,26 @@
               <a class="nav-link" href="#">Construction</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Team</a>
+              <a class="nav-link" href="our-team.html">Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Join us</a>
             </li>
           </ul>
         </div>
-        <button class="btn btn-primary contact-us-btn order-first order-lg-last">Contact
-          us</button>
       </div>
     </nav>
-    <!-- Footer -->
-    <footer class="bg-black text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 footer-logo mb-5 mb-lg-0">
-            <a class="navbar-brand p-0" href="#">
-              <img src="assets/images/logo.webp" alt="Logo" height="114"
-                class="logo">
-            </a>
-            <p>Future-proof your investments by investing in Dubai. The city of
-              endless
-              possibilities that attracts people from all over the world. Choose
-              the
-              lifestyle you deserve.</p>
-          </div>
-          <div
-            class="col-12 col-md-3 col-lg-2 offset-lg-1 offset-xl-2 footer-menu mb-5 mb-lg-0 order-md-last">
-            <ul class="list-unstyled">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Interior Design</a></li>
-              <li><a href="#">Real Estate</a></li>
-              <li><a href="#">Construction</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Join us</a></li>
-              <li><a href="#">Contact us</a></li>
-            </ul>
-          </div>
-          <div
-            class="col-12 col-md-6 col-lg-3 offset-lg-2 col-xl-2 footer-info order-lg-last">
-            <div class="footer-info-row">
-              <h6>Address</h6>
-              <p>1604-1605 Damac XL Tower
-                Business Bay, Dubai, UAE <a href="mailto:info@thomandgery.com">info@thomandgery.com</a></p>
-            </div>
-            <div class="footer-info-row">
-              <h6>Call Us Anytime</h6>
-              <p>800 THOM/8466<br><a href="tel:+971-50-440-9231">+971 50 440
-                  9231</a></p>
-            </div>
-            <div class="footer-info-row">
-              <h6>Follow us</h6>
-              <div class="icons">
-                <a href="https://www.facebook.com/thomandgery/" class="icon">
-                  <img src="assets/images/facebook.svg" alt="facebook">
-                </a>
-                <a href="https://www.instagram.com/thomandgery" class="icon">
-                  <img src="assets/images/instagram.svg" alt="instagram">
-                </a>
-                <a href="https://www.linkedin.com/company/thomandgery"
-                  class="icon">
-                  <img src="assets/images/linkedin.svg" alt="linkedin">
-                </a>
-                <a href="#" class="icon">
-                  <img src="assets/images/youtube.svg" alt="youtube">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="copyrights text-center border-top">
-          <p class="m-0">&copy; 2023 Thom&Gery.</p>
-        </div>
+    <section class="row g-0 images-wrapper">
+      <div class="col-12 col-lg-4 col-image col-image-1">
+        <button class="btn btn-outline-primary">Interior Design</button>
       </div>
-    </footer>
+      <div class="col-12 col-lg-4 col-image col-image-2">
+        <button class="btn btn-outline-primary">Real Estate</button>
+      </div>
+      <div class="col-12 col-lg-4 col-image col-image-3">
+        <button class="btn btn-outline-primary">Construction</button>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
