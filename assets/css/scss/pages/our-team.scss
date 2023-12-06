@@ -30,7 +30,7 @@
     margin-bottom: 90px;
     .our-team-cards {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(372px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
       gap: 123px 42px;
       padding-top: 78px;
       .our-team-card {
@@ -39,6 +39,9 @@
         justify-content: center;
         flex-direction: column;
         position: relative;
+        &:nth-last-child(1):nth-child(3n + 1) {
+          grid-column: 2;
+        }
         .our-team-card-container {
           padding: 102px 16.8px 44.35px 16.8px;
           border-radius: 10px;
