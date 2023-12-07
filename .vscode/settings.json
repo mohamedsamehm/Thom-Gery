@@ -1,5 +1,6 @@
 {
   "files.associations": {
     "*.embeddedhtml": "html"
-  }
+  },
+  "liveServer.settings.port": 5501
 }

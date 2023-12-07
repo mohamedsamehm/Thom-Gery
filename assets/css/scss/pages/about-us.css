@@ -2,7 +2,7 @@
   background-color: #000;
 }
 .about-us-page .page-heading {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%), url("../images/about-us.webp");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%), url("../../../images/about-us.webp");
   color: #fff;
 }
 .about-us-page .section-title {
