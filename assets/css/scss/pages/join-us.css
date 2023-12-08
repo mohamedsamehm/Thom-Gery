@@ -9,14 +9,10 @@
   background: #000;
   padding: 58px 0 78px 0;
 }
-.join-us-page .contact-us .contact-us-form {
-  gap: 20px;
-}
 .join-us-page .contact-us .contact-us-form input,
 .join-us-page .contact-us .contact-us-form select {
   padding: 10px 15px;
   border-radius: 9.316px;
-  border: 0.932px solid rgba(255, 255, 255, 0.2);
   background-color: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.7) !important;
   font-size: 16.768px;
@@ -31,14 +27,22 @@
 .join-us-page .contact-us .contact-us-form select::placeholder {
   color: rgba(255, 255, 255, 0.7) !important;
 }
+.join-us-page .contact-us .contact-us-form input:not(.is-invalid):not(:invalid),
+.join-us-page .contact-us .contact-us-form select:not(.is-invalid):not(:invalid) {
+  border: 0.932px solid rgba(255, 255, 255, 0.2);
+}
+.join-us-page .contact-us .contact-us-form.was-validated .file-drop-area:has(> .file-input:invalid), .join-us-page .contact-us .contact-us-form.was-validated .file-drop-area:has(> .file-input.is-invalid) {
+  --border-color: #ea868f;
+}
 .join-us-page .contact-us .contact-us-form .file-drop-area {
   background-color: rgba(255, 255, 255, 0.1);
   background-position: 0 0, 0 0, 100% 0, 0 100%;
   background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
   background-repeat: no-repeat;
-  background-image: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 15px, transparent 15px, transparent 30px), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 15px, transparent 15px, transparent 30px), repeating-linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 15px, transparent 15px, transparent 30px), repeating-linear-gradient(270deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 15px, transparent 15px, transparent 30px);
-  -o-border-image: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 15px, transparent 15px, transparent 30px);
-     border-image: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 15px, transparent 15px, transparent 30px);
+  --border-color: rgba(255, 255, 255, 0.2);
+  background-image: repeating-linear-gradient(0deg, var(--border-color), var(--border-color) 15px, transparent 15px, transparent 30px), repeating-linear-gradient(90deg, var(--border-color), var(--border-color) 15px, transparent 15px, transparent 30px), repeating-linear-gradient(180deg, var(--border-color), var(--border-color) 15px, transparent 15px, transparent 30px), repeating-linear-gradient(270deg, var(--border-color), var(--border-color) 15px, transparent 15px, transparent 30px);
+  -o-border-image: repeating-linear-gradient(0deg, var(--border-color), var(--border-color) 15px, transparent 15px, transparent 30px);
+     border-image: repeating-linear-gradient(0deg, var(--border-color), var(--border-color) 15px, transparent 15px, transparent 30px);
   border-radius: 9.316px;
   padding: 10px 15px;
   position: relative;
