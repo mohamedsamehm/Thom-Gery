@@ -55,4 +55,17 @@ document.addEventListener("DOMContentLoaded", function () {
       fileNameElement.textContent = `File: ${fileName}`;
     }
   }
+  var numericInput = document.getElementById("number-input");
+
+  // Add input event listener
+  numericInput.addEventListener("input", function (event) {
+    // Get the input value
+    var inputValue = event.target.value;
+
+    // Remove non-numeric characters using regex
+    var numericValue = inputValue.replace(/[^0-9]/g, "");
+
+    // Set the cleaned numeric value back to the input
+    event.target.value = numericValue;
+  });
 });
