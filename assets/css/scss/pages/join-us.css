@@ -11,6 +11,8 @@
 }
 .join-us-page .contact-us .contact-us-form input,
 .join-us-page .contact-us .contact-us-form select {
+  display: block;
+  width: 100%;
   padding: 10px 15px;
   border-radius: 9.316px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -19,6 +21,9 @@
   font-weight: 400;
   line-height: 51.236px;
   letter-spacing: -0.503px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
 }
 .join-us-page .contact-us .contact-us-form input::-moz-placeholder, .join-us-page .contact-us .contact-us-form select::-moz-placeholder {
   color: rgba(255, 255, 255, 0.7) !important;
@@ -30,6 +35,13 @@
 .join-us-page .contact-us .contact-us-form input:not(.is-invalid):not(:invalid),
 .join-us-page .contact-us .contact-us-form select:not(.is-invalid):not(:invalid) {
   border: 0.932px solid rgba(255, 255, 255, 0.2);
+}
+.join-us-page .contact-us .contact-us-form select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23dee2e6' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
 }
 .join-us-page .contact-us .contact-us-form.was-validated .file-drop-area:has(> .file-input:invalid), .join-us-page .contact-us .contact-us-form.was-validated .file-drop-area:has(> .file-input.is-invalid) {
   --border-color: #ea868f;
