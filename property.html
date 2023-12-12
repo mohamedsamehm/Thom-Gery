@@ -9,18 +9,16 @@
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/join-us.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/property.css">
   </head>
-  <body class="join-us-page">
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-1 navbar-expand-lg bg-black">
       <div class="container">
-        <a class="navbar-brand p-0" href="/">
+        <a class="navbar-brand p-0" href="#">
           <img src="assets/images/logo.webp" alt="Logo" width="216" height="51"
             class="logo">
         </a>
@@ -36,11 +34,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav justify-content-between ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About
-                us</a>
+              <a class="nav-link" href="#">About us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Interior Design</a>
@@ -52,11 +49,10 @@
               <a class="nav-link" href="#">Construction</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="our-team.html">Team</a>
+              <a class="nav-link" href="#">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="join-us.html">Join
-                us</a>
+              <a class="nav-link" href="#">Join us</a>
             </li>
           </ul>
         </div>
@@ -64,56 +60,76 @@
           us</button>
       </div>
     </nav>
-    <section class="page-heading">
-      <div class="container">
-        <div class="page-heading-box text-center">
-          <h1>Join Us</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>
-    </section>
-    <section class="contact-us">
-      <div class="container">
-        <form class="contact-us-form needs-validation row g-3" novalidate>
-          <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Name"
-              aria-label="Name" required>
+    <section class="property">
+        <div class="property-top">
+          <div class="overflow">
+            <div class="overflow-box">
+            
+              <div class="box">
+                <h1 class="title">Property name</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                
+               </div>
+              </div>
+              
           </div>
-          <div class="col-md-6">
-            <select required>
-              <option value="real-estate" selected>Real Estate</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
-          <div class="col-md-6">
-            <input type="email" class="form-control" placeholder="Email"
-              aria-label="Email" required>
-          </div>
-          <div class="col-md-6">
-            <input type="text" class="form-control"
-              placeholder="Contact Number"
-              aria-label="Contact Number" id="number-input" required>
-          </div>
-          <div class="col-12">
-            <div class="file-drop-area" id="fileDropArea">
-              <h5>Upload CV</h5>
-              <span>Drag & Drop</span>
-              <button class="btn btn-browse-files">Browse from pc</button>
-              <input class="file-input" type="file"
-                accept=".doc,.docx,.pdf,.rtf,.html,.odt"
-                id="fileInput" required>
-              <p class="file-name" id="fileName"></p>
+         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img class="property-img" src="./assets/images/Rectangle 31 (11).webp" alt="">
+                    <div class="d-flex flex-wrap justify-content-end end-section">
+                        <div class="last-section">
+                            <div class="box-s">
+                                <img src="./assets/images/Vector (1).svg" alt="">
+                                <span>2</span>
+                            </div>
+                            <div class="box-s">
+                                <img src="./assets/images/Vector (2).svg" alt="">
+                                <span>2</span>
+                            </div>
+                            <div class="box-s">
+                                <img src="./assets/images/Vector (3).svg" alt="">
+                                <span>3</span>
+                            </div>
+                            <div class="box-s">
+                                <img src="./assets/images/Vector (4).svg" alt="">
+                                <span>623 Sqft</span>
+                            </div>
+                        </div>
+                        <button class="yellow-btn">Buy now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="span-group">
+                        <span class="span1">AED 2000</span>
+                        <span class="span2">EURO 600</span>
+                        <span class="span3">USD 600</span>
+                      </div>
+                      <h3>PROPERTY NAME</h3>
+                      <p>
+                        Property description and details
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                         - <br>
+                      </p>
+                </div>
             </div>
-          </div>
-          <div class="col-12">
-            <button class="btn btn-primary w-100" type="submit">Submit</button>
-          </div>
         </div>
-      </div>
-    </section>
+        </section>
     <!-- Footer -->
     <footer class="bg-black text-white">
       <div class="container">

@@ -1,0 +1,57 @@
+footer {
+  padding: 76px 0 0 0;
+}
+footer .footer-logo img {
+  max-width: 203px;
+}
+footer .footer-logo p {
+  color: #e3e3e3;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 333px;
+}
+footer .footer-menu li a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  color: white;
+}
+footer .footer-menu li a:hover {
+  color: var(--main-color);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+footer .footer-info .footer-info-row {
+  margin-bottom: 17px;
+}
+footer .footer-info .footer-info-row h6 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+footer .footer-info .footer-info-row p {
+  color: #e3e3e3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+footer .footer-info .footer-info-row a {
+  color: inherit;
+}
+footer .footer-info .footer-info-row .icons {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 12px;
+}
+footer .copyrights {
+  border-color: rgba(221, 153, 52, 0.4) !important;
+  padding: 25px 0;
+  margin-top: 31px;
+}
+footer .copyrights p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --main-color: #dd9934;
+  --main-color-hover: #bd7e21;
+  --text-color: #dbd9d9;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+a,
+a:active,
+a:focus,
+a:hover {
+  outline: 0;
+  text-decoration: none;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1280px !important;
+  }
+}
+.btn-primary {
+  background-color: var(--main-color) !important;
+  border: 1px solid var(--main-color) !important;
+  color: white !important;
+  padding: 15px 30px !important;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.btn-primary:hover {
+  border-color: var(--main-color-hover) !important;
+  background-color: var(--main-color-hover) !important;
+}
+
+.page-heading {
+  height: 364px;
+  background-color: lightgray;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+.page-heading .page-heading-box {
+  padding: 112px 100px;
+  max-width: 937px;
+  height: 369px;
+  background: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  transform: translateY(112px);
+}
+.page-heading .page-heading-box h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 105.687%;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+.page-heading .page-heading-box p {
+  color: #dbd9d9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31.5px;
+  max-width: 629px;
+  margin: auto;
+}
+@media (max-width: 992px) {
+  .page-heading .page-heading-box {
+    padding: 40px 20px;
+    height: auto !important;
+    transform: none;
+  }
+  .page-heading .page-heading-box h1 {
+    font-size: 32px;
+  }
+  .page-heading .page-heading-box p {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=main.css.map */

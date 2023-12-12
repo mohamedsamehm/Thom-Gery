@@ -1,0 +1,198 @@
+
+.property{
+    background-color: #000;
+}
+
+.property-top{
+    background-position: top;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url('../images/Rectangle\ 1\ \(5\).webp');
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.overflow{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 88px;
+}
+.overflow-box{
+    width: 67%;
+    margin-top: 85px;
+}
+.box{
+    width: 100%;
+    height: auto;
+    padding-top: 112px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+.box .title{
+    width: 100%;
+    margin: auto;
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 60px;
+font-weight: 700;
+line-height: 63.41px; 
+text-transform: uppercase;
+margin-bottom: 19px;
+}
+.box .description{
+    width: 64%;
+    margin: auto;
+    color: #DBD9D9;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 31.5px;
+margin-bottom: 37px;
+}
+
+@media (max-width:1200px){
+   
+    .box .title{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .btn-group {  
+        width: 90%;
+       }
+    .overflow-box{
+        width: 80%;
+    }  
+}
+@media (max-width:769px){
+    
+  
+    .box{
+        top: 15px;
+    }
+    .box .title{
+        font-size: 35px;
+    }
+    .box .description{
+        font-size: 15px;
+    line-height: 22.5px;
+    }
+}
+@media (max-width:600px){
+    .box .description {
+        width: 90%;}
+        .box .title {
+            font-size: 25px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+}
+.property-img{
+    height: 476px;
+}
+.end-section{
+    margin-top: 6px;
+    align-items: center;
+}
+.last-section{
+    display: flex;
+align-items: flex-start;
+margin-right: 49px;
+
+margin-bottom: 19px;
+gap: 5px;
+
+}
+.last-section .box-s{
+    display: flex;
+padding: 7px 14px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 5px;
+background: rgba(255, 255, 255, 0.10);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+}
+.yellow-btn{
+    border-radius: 5px;
+background: #DD9934;
+padding: 10px;
+width: 129px;
+margin-bottom: 19px;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+border: none;
+outline: none;
+}
+.yellow-btn:hover{
+    background-color: black;
+    border:1px solid #DD9934;
+}
+h3{
+    margin-top: 3px;
+    margin-bottom: 15px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 25px;
+font-weight: 700;
+}
+p{
+    color: rgba(219, 217, 217, 0.70);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.span-group{
+   justify-content: end;
+    display: flex;
+    flex-wrap: wrap;
+}
+.span-group span{
+    border-radius: 3000px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+    padding: 3px 12px;
+}
+@media (max-width:1000px)and (min-width:767px){
+    .span-group span{
+        padding: 3px 6px;
+    }
+}
+.span-group .span1{
+    color: #000;
+background: #FFF;
+}
+.span-group .span2{
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    color: #fff;
+background: #DD9934;
+}
+.span-group .span3{
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    color: #FFF;
+background: #000;
+}
+@media (max-width:1200px){
+   
+    .last-section{
+        margin-right: 10px;
+    }
+}

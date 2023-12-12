@@ -1,0 +1,257 @@
+.our-team-page {
+  background-color: #000;
+}
+.our-team-page .page-heading {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%),
+    url("../images/about-us.webp");
+  color: #fff;
+}
+.our-team-page .section-title {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 19px;
+}
+@media (max-width: 992px) {
+  .our-team-page .section-title {
+    font-size: 28px;
+  }
+}
+.our-team-page .section-description {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  margin: 0 auto 64px;
+  max-width: 646px;
+}
+.our-team-page .our-team-section {
+  padding-top: 78px;
+  margin-bottom: 90px;
+}
+.our-team-page .our-team-section .our-team-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 123px 42px;
+  padding-top: 78px;
+}
+.our-team-page .our-team-section .our-team-cards .our-team-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.our-team-page
+  .our-team-section
+  .our-team-cards
+  .our-team-card:nth-last-child(1):nth-child(3n + 1) {
+  grid-column: 2;
+}
+.our-team-page
+  .our-team-section
+  .our-team-cards
+  .our-team-card
+  .our-team-card-container {
+  padding: 102px 16.8px 44.35px 16.8px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.our-team-page
+  .our-team-section
+  .our-team-cards
+  .our-team-card
+  .our-team-card-profile {
+  width: 156px;
+  height: 156px;
+  border-radius: 156px;
+  border: 4px solid #dd9934;
+  overflow: hidden;
+  position: absolute;
+  top: -78px;
+}
+.our-team-page
+  .our-team-section
+  .our-team-cards
+  .our-team-card
+  .our-team-card-profile
+  img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.our-team-page
+  .our-team-section
+  .our-team-cards
+  .our-team-card
+  .our-team-card-name {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.our-team-page
+  .our-team-section
+  .our-team-cards
+  .our-team-card
+  .our-team-card-about {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.our-team-page
+  .our-team-section
+  .our-team-cards
+  .our-team-card
+  .our-team-card-info {
+  line-height: 27px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 22px 0;
+}
+.our-team-page
+  .our-team-section
+  .our-team-cards
+  .our-team-card
+  .our-team-card-info
+  a {
+  display: block;
+  color: inherit;
+}
+.our-team-page
+  .our-team-section
+  .our-team-cards
+  .our-team-card
+  .our-team-card-info
+  a.email {
+  text-decoration: underline;
+}
+.our-team-page
+  .our-team-section
+  .our-team-cards
+  .our-team-card
+  .our-team-card-social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.our-team-page
+  .our-team-section
+  .our-team-cards
+  .our-team-card
+  .our-team-card-social
+  .icon {
+  width: 36.653px;
+  height: 36.653px;
+  background-color: #6f6f6f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dd9934;
+  border-radius: 50%;
+}
+.our-team-page .contact-us {
+  background: rgba(221, 153, 52, 0.14);
+  padding: 56px 0 54px 0;
+}
+.our-team-page .contact-us h2 {
+  margin-bottom: 49px;
+}
+.our-team-page .contact-us .contact-us-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20.49px;
+}
+.our-team-page .contact-us .contact-us-form input,
+.our-team-page .contact-us .contact-us-form select,
+.our-team-page .contact-us .contact-us-form textarea {
+  padding: 19.56px 20px;
+  border-radius: 9.316px;
+  border: 0.932px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 16.768px;
+  font-weight: 400;
+  line-height: 25.236px;
+}
+.our-team-page .contact-us .contact-us-form input::-moz-placeholder,
+.our-team-page .contact-us .contact-us-form select::-moz-placeholder,
+.our-team-page .contact-us .contact-us-form textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.our-team-page .contact-us .contact-us-form input::placeholder,
+.our-team-page .contact-us .contact-us-form select::placeholder,
+.our-team-page .contact-us .contact-us-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.our-team-page .contact-us .contact-us-form textarea {
+  width: 100%;
+  height: 170px;
+}
+.our-team-page .contact-us .contact-us-form button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 9.32px 0;
+  height: 66px;
+  border-radius: 5px;
+}
+.our-team-page .contact-us .contact-us-images {
+  position: relative;
+  padding: 15px 0 0 0;
+  max-width: 545px;
+  margin: auto;
+}
+.our-team-page .contact-us .contact-us-images .image-1 {
+  width: 49.5%;
+  z-index: 2;
+  left: 0;
+  position: absolute;
+}
+.our-team-page .contact-us .contact-us-images .image-1 img {
+  border-radius: 9.316px;
+  height: 403px;
+}
+.our-team-page .contact-us .contact-us-images .image-2 {
+  width: 80%;
+  top: 100px;
+  position: relative;
+}
+.our-team-page .contact-us .contact-us-images .image-2 img {
+  border-radius: 9.316px;
+  height: 470px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 992px) {
+  .our-team-page .contact-us .contact-us-images {
+    margin: 160px auto 0 auto;
+    max-width: 460px;
+  }
+  .our-team-page .contact-us .contact-us-images .image-1 {
+    width: 55%;
+  }
+  .our-team-page .contact-us .contact-us-images .image-1 img {
+    height: 320px;
+    width: 100%;
+  }
+  .our-team-page .contact-us .contact-us-images .image-2 img {
+    height: 350px;
+  }
+} /*# sourceMappingURL=our-team.css.map */

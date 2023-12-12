@@ -1,0 +1,180 @@
+.real-estate-support-page {
+  background-color: #000;
+}
+.real-estate-support-page .page-heading {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%),
+    url("../images/real-estate-support.webp");
+  color: #fff;
+}
+.real-estate-support-page .section-title {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 19px;
+}
+@media (max-width: 992px) {
+  .real-estate-support-page .section-title {
+    font-size: 28px;
+  }
+}
+.real-estate-support-page .section-description {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  margin: 0 auto 64px;
+  max-width: 646px;
+}
+.real-estate-support-page .main-section {
+  padding: 78px 0 285px 0;
+}
+.real-estate-support-page .main-section h2 {
+  margin-bottom: 24px;
+}
+.real-estate-support-page .main-section ol,
+.real-estate-support-page .main-section p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 666px;
+  width: 100%;
+}
+.real-estate-support-page .main-section img {
+  width: 100%;
+  height: 100%;
+  height: 673px;
+  max-width: 497px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.real-estate-support-page .main-section .property-management {
+  margin-bottom: 222px;
+}
+.real-estate-support-page .main-section .visa-processing {
+  margin-bottom: 87px;
+}
+.real-estate-support-page .main-section .visa-processing h2 {
+  margin-bottom: 37px;
+}
+.real-estate-support-page .main-section .visa-processing p {
+  max-width: 100%;
+}
+.real-estate-support-page .main-section .visa-processing img {
+  max-width: 589px;
+  height: 608px;
+}
+@media (max-width: 1200px) {
+  .real-estate-support-page .main-section h2 {
+    margin-bottom: 24px;
+  }
+  .real-estate-support-page .main-section ol,
+  .real-estate-support-page .main-section p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+  .real-estate-support-page .main-section img {
+    height: auto;
+    max-width: 100%;
+    max-height: 500px;
+  }
+  .real-estate-support-page .main-section .property-management {
+    margin-bottom: 122px;
+  }
+}
+.real-estate-support-page .contact-us {
+  background: rgba(221, 153, 52, 0.14);
+  padding: 56px 0 54px 0;
+}
+.real-estate-support-page .contact-us h2 {
+  margin-bottom: 49px;
+}
+.real-estate-support-page .contact-us .contact-us-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20.49px;
+}
+.real-estate-support-page .contact-us .contact-us-form input,
+.real-estate-support-page .contact-us .contact-us-form select,
+.real-estate-support-page .contact-us .contact-us-form textarea {
+  padding: 19.56px 20px;
+  border-radius: 9.316px;
+  border: 0.932px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 16.768px;
+  font-weight: 400;
+  line-height: 25.236px;
+}
+.real-estate-support-page .contact-us .contact-us-form input::-moz-placeholder,
+.real-estate-support-page .contact-us .contact-us-form select::-moz-placeholder,
+.real-estate-support-page
+  .contact-us
+  .contact-us-form
+  textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.real-estate-support-page .contact-us .contact-us-form input::placeholder,
+.real-estate-support-page .contact-us .contact-us-form select::placeholder,
+.real-estate-support-page .contact-us .contact-us-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.real-estate-support-page .contact-us .contact-us-form textarea {
+  width: 100%;
+  height: 170px;
+}
+.real-estate-support-page .contact-us .contact-us-form button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 9.32px 0;
+  height: 66px;
+  border-radius: 5px;
+}
+.real-estate-support-page .contact-us .contact-us-images {
+  position: relative;
+  padding: 15px 0 0 0;
+  max-width: 545px;
+  margin: auto;
+}
+.real-estate-support-page .contact-us .contact-us-images .image-1 {
+  width: 49.5%;
+  z-index: 2;
+  left: 0;
+  position: absolute;
+}
+.real-estate-support-page .contact-us .contact-us-images .image-1 img {
+  border-radius: 9.316px;
+  height: 403px;
+}
+.real-estate-support-page .contact-us .contact-us-images .image-2 {
+  width: 80%;
+  top: 100px;
+  position: relative;
+}
+.real-estate-support-page .contact-us .contact-us-images .image-2 img {
+  border-radius: 9.316px;
+  height: 470px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 992px) {
+  .real-estate-support-page .contact-us .contact-us-images {
+    margin: 160px auto 0 auto;
+    max-width: 460px;
+  }
+  .real-estate-support-page .contact-us .contact-us-images .image-1 {
+    width: 55%;
+  }
+  .real-estate-support-page .contact-us .contact-us-images .image-1 img {
+    height: 320px;
+    width: 100%;
+  }
+  .real-estate-support-page .contact-us .contact-us-images .image-2 img {
+    height: 350px;
+  }
+} /*# sourceMappingURL=real-estate-support.css.map */

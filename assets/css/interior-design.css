@@ -1,0 +1,296 @@
+
+.interior-design{
+    background: #000;}
+.interior-top{
+    position: relative;
+}
+.box{
+    top: 29%;
+    width: 65%;
+    height: 369px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    right: 50%;
+    transform: translate(50%,0%);
+}
+.box .title{
+    width: 77%;
+    margin: auto;
+    color: #FFF;
+
+text-align: center;
+font-family: Roboto;
+font-size: 60px;
+font-weight: 700;
+line-height: 105.687%; /* 63.412px */
+text-transform: uppercase;
+margin-bottom: 19px;
+margin-top: 96px;
+}
+.box .description{
+    width: 77%;
+    margin: auto;
+    color: #DBD9D9;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 31.5px; /* 175% */
+}
+.initial-details{
+    margin-top: 13%;
+}
+@media (max-width:1000px){
+    .box{
+        height: 300px;
+    }
+    .box .title{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+}
+@media (max-width:769px){
+  
+    .box{
+        top: 15px;
+        height: auto;
+    }
+    .box .title{
+        font-size: 35px;
+    }
+    .box .description{
+        font-size: 15px;
+    line-height: 22.5px;
+    }
+}
+@media (max-width:600px){
+    .box .description {
+        width: 90%;}
+        .box .title {
+            font-size: 25px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+}
+@media (max-width:600px){
+    .box{
+        position: static;
+margin: auto;
+transform: translate(0px, 0px);}
+}
+.filtter-btn{
+    width: 124px;
+height: 49px;
+margin-left: auto;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid rgba(255, 255, 255, 0.40);
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+background-color: transparent;
+margin-bottom: 40px;
+}
+/*------CARD-----*/
+.card{
+    height: 442px;
+    border-radius: 10px;
+background: rgba(255, 255, 255, 0.08);
+width: 97% ;
+ margin: auto;
+ margin-bottom: 40px;
+}
+.card-img{
+    position: relative;
+}
+.card-img img{
+    border-radius: 10px;
+    width: 100%;
+    height: 239.382px;
+}
+.card-img span{
+    padding: 3px 12px;
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+    border-radius: 3000px;
+background: #FFF;
+position: absolute;
+top: 10px;
+left: 10px;
+}
+.card-info{
+    padding-left: 15.18px;
+    padding-top: 23px;
+}
+.card-info h3{
+    color: #FFF;
+    margin-bottom: 15px;
+font-family: Roboto;
+font-size: 25px;
+font-weight: 700;
+
+}
+.card-info p{
+    color: rgba(219, 217, 217, 0.70);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+margin-bottom: 23px;
+}
+.card-info .last-section{
+    display: flex;
+align-items: flex-start;
+gap: 5px;
+}
+.card-info .last-section .box-s{
+    display: flex;
+padding: 7px 14px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 5px;
+background: rgba(255, 255, 255, 0.10);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+}
+@media screen and (max-width:1200px ) and (min-width:1000px ){
+    .card-info .last-section .box-s {
+        padding: 2px 7px;}
+}
+@media screen and (max-width:1000px ) and (min-width:769px ){
+    .card-info .last-section .box-s {
+        padding: 2px 0px;}
+}
+/*------OUR PHILOSOPHY-----*/
+.our-philosophy{
+    
+padding-bottom: 50px;
+}
+.our-philosophy h2{
+    color: #DD9934;
+text-align: center;
+font-family: Roboto;
+font-size: 22.635px;
+font-weight: 700;
+line-height: 140%; 
+margin-bottom: 51px;
+}
+.our-philosophy .bg-image{
+background-image: url('../images/rectangle.webp');
+background-repeat: no-repeat;
+background-size: cover;
+height: 275px;
+border-radius: 20px;
+}
+.our-philosophy p{
+    color: #FFF;
+    width: 65%;
+text-align: center;
+font-family: Roboto;
+font-size: 40px;
+padding-top: 70px;
+margin: auto;
+font-weight: 700;
+line-height: 170%;
+}
+@media (max-width:769px){
+.our-philosophy p {
+    width: 90%;
+    font-size: 30px;
+    padding-top: 15px;}
+}
+/*------CONTACTUS-----*/
+.contact-us{
+    background: rgba(221, 153, 52, 0.14);
+}
+.contact-us h2{
+    padding-top: 56px;
+    padding-bottom: 49px;
+    margin:  auto ;
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 140%;
+}
+.contact-us input ,.contact-us textarea,
+.contact-us .dropdown .dropdown-toggle{
+    width: 100%;
+    height: 65.21px;
+    text-align: left!important;
+    border-radius: 9.316px;
+border: 0.932px solid rgba(255, 255, 255, 0.20);
+background: rgba(255, 255, 255, 0.10);
+margin-bottom: 20px;
+font-family: Roboto;
+padding-left: 20px;
+color: rgba(255, 255, 255, 0.70);
+}
+
+.dropdown .dropdown-menu{
+    width: 100%;
+ }
+ 
+ .dropdown .dropdown-menu li:hover a,.dropdown .dropdown-menu.lastmenu li:hover{
+     background-color: #f7f7f7!important;
+     color: #aaaaaa!important;
+ } 
+ .dropdown-toggle{
+     position: relative;
+ }
+ .dropdown-toggle:after{
+ position: absolute;
+ top: 22px;
+ right: 20px;
+ border: none!important;
+ content: "\f107"!important;
+ font: normal normal normal 14px/1 FontAwesome;
+ font-size: 18px!important;
+ font-weight: 600!important;
+ 
+ 
+ }
+ 
+.contact-us textarea{
+    height: 169.546px;
+}
+.contact-us input::placeholder ,
+.contact-us textarea::placeholder 
+{
+    color: rgba(255, 255, 255, 0.70);
+font-family: Roboto;
+font-size: 16.768px;
+font-weight: 400;
+line-height: 51.236px; 
+letter-spacing: -0.503px;
+}
+.contact-us .Submit{
+    height: 66.142px;
+padding: 9.316px;
+border-radius: 5px;
+background: #DD9934;
+text-align: center;
+color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+width: 100%;
+border: none;
+margin-bottom: 49px;
+outline: none;
+}

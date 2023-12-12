@@ -1,0 +1,279 @@
+.about-us-page {
+  background-color: #000;
+  .page-heading {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%),
+      url("../images/about-us.webp");
+    color: #fff;
+  }
+  .section-title {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%;
+    @media (max-width: 992px) {
+      font-size: 28px;
+    }
+  }
+  .full-story {
+    padding: 78px 0;
+    .full-story-description {
+      h2 {
+        text-align: left;
+        margin-bottom: 24px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        max-width: 666px;
+      }
+    }
+    img {
+      width: 100%;
+      object-fit: cover;
+      max-height: 673px;
+      @media (min-width: 992px) {
+        max-width: 497px;
+      }
+    }
+    & + hr {
+      max-width: 988px !important;
+      border-top-color: rgba(221, 153, 52, 0.4) !important;
+      margin: auto;
+      opacity: 1;
+    }
+  }
+  .our-values {
+    padding: 71px 0;
+    margin-bottom: 74px;
+    h2 {
+      margin-bottom: 32px;
+    }
+    .our-values-images {
+      position: relative;
+      padding: 22px 0 0 0;
+      max-width: 559px;
+      .image-1 {
+        width: 76.75%;
+        img {
+          height: 516px;
+        }
+      }
+      .image-2 {
+        z-index: 2;
+        position: absolute;
+        top: 168px;
+        left: 0;
+        img {
+          height: 451px;
+          object-fit: cover;
+        }
+      }
+    }
+    .our-values-info {
+      h4 {
+        color: #dd9934;
+        font-size: 20.903px;
+        font-weight: 700;
+        line-height: 41.226px;
+        margin-bottom: 9px;
+      }
+      p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        &:not(:last-child) {
+          margin-bottom: 27px;
+        }
+      }
+    }
+    @media (max-width: 992px) {
+      .our-values-images {
+        margin: 0 auto 80px auto;
+        .image-1 {
+          img {
+            height: 300px;
+          }
+        }
+        .image-2 {
+          top: 80px;
+          width: 70%;
+          img {
+            height: 300px;
+          }
+        }
+      }
+    }
+  }
+  .our-clients-stories {
+    margin-bottom: 135px;
+    h2 {
+      margin-bottom: 19px;
+    }
+    .carousel {
+      &::before {
+        content: "";
+        background-image: url("../images/double-quotes-icon.svg");
+        width: 55.987px;
+        height: 44.79px;
+        display: block;
+        left: 10%;
+        position: relative;
+        background-size: cover;
+      }
+      .carousel-inner {
+        max-width: 70%;
+        margin: auto;
+      }
+      .carousel-control-prev {
+        justify-content: flex-start;
+      }
+      .carousel-control-next {
+        justify-content: flex-end;
+      }
+      .carousel-control-prev,
+      .carousel-control-next {
+        padding-top: 8%;
+        align-items: flex-start;
+      }
+      .our-client-desc {
+        font-size: 21px;
+        line-height: 47.5px;
+        margin-bottom: 56px;
+      }
+      .our-client-profile {
+        border-radius: 102px;
+        border: 2px solid #dd9934;
+        width: 102px;
+        height: 102px;
+        overflow: hidden;
+        margin: auto;
+        margin-bottom: 20px;
+        img {
+          object-fit: cover;
+          transform: translateY(-20px);
+        }
+      }
+      .our-client-title {
+        font-family: "Poppins", sans-serif;
+        font-size: 23.333px;
+        font-weight: 700;
+      }
+    }
+    @media (max-width: 992px) {
+      .carousel {
+        &::before {
+          width: 35.987px;
+          height: 24.79px;
+          left: 1%;
+          top: -2px;
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+          display: none;
+        }
+        .carousel-inner {
+          max-width: 100% !important;
+        }
+        .our-client-desc {
+          font-size: 14px;
+          line-height: 30px;
+          margin-bottom: 36px;
+        }
+        .our-client-profile {
+          border-radius: 82px;
+          width: 82px;
+          height: 82px;
+        }
+        .our-client-title {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .contact-us {
+    background: rgba(221, 153, 52, 0.14);
+    padding: 56px 0 54px 0;
+    h2 {
+      margin-bottom: 49px;
+    }
+    .contact-us-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20.49px;
+      input,
+      select,
+      textarea {
+        padding: 19.56px 20px;
+        border-radius: 9.316px;
+        border: 0.932px solid rgba(255, 255, 255, 0.2);
+        background-color: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.7) !important;
+        font-size: 16.768px;
+        font-weight: 400;
+        line-height: 25.236px;
+        &::placeholder {
+          color: rgba(255, 255, 255, 0.7) !important;
+        }
+      }
+      textarea {
+        width: 100%;
+        height: 170px;
+      }
+      button {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: normal;
+        padding: 9.32px 0;
+        height: 66px;
+        border-radius: 5px;
+      }
+    }
+    .contact-us-images {
+      position: relative;
+      padding: 15px 0 0 0;
+      max-width: 545px;
+      margin: auto;
+      .image-1 {
+        width: 49.5%;
+        z-index: 2;
+        left: 0;
+        position: absolute;
+        img {
+          border-radius: 9.316px;
+          height: 403px;
+        }
+      }
+      .image-2 {
+        width: 80%;
+        top: 100px;
+        position: relative;
+        img {
+          border-radius: 9.316px;
+          height: 470px;
+          object-fit: cover;
+        }
+      }
+      @media (max-width: 992px) {
+        margin: 160px auto 0 auto;
+        max-width: 460px;
+        .image-1 {
+          width: 55%;
+          img {
+            height: 320px;
+            width: 100%;
+          }
+        }
+        .image-2 {
+          img {
+            height: 350px;
+          }
+        }
+      }
+    }
+  }
+}
