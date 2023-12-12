@@ -158,7 +158,7 @@
 }
 @media (max-width: 992px) {
   .real-estate-support-page .contact-us .contact-us-images {
-    margin: 0 auto 160px auto;
+    margin: 160px auto 0 auto;
     max-width: 460px;
   }
   .real-estate-support-page .contact-us .contact-us-images .image-1 {
