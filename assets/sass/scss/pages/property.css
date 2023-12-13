@@ -65,6 +65,21 @@
   border-radius: 5px;
   padding: 10px;
 }
+@media (max-width: 576px) {
+  .property-page .property-section .property-image-info .box-wrapper {
+    margin-right: 12px;
+  }
+  .property-page .property-section .property-image-info .box-wrapper .box-s {
+    font-size: 14px;
+    padding: 7px;
+    gap: 4px;
+  }
+  .property-page .property-section .property-image-info .btn-primary {
+    font-size: 14px;
+    padding: 6px !important;
+    height: auto;
+  }
+}
 .property-page .property-section .property-info .span-group {
   display: flex;
   justify-content: end;
@@ -107,6 +122,11 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+@media (max-width: 576px) {
+  .property-page .property-section .property-info .span-group button {
+    font-size: 15px;
+  }
 }
 .property-page .property-section .carousel .carousel-inner {
   max-width: 100%;
