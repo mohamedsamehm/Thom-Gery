@@ -9,592 +9,603 @@
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/interior-design.css">
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-black transparent-navbar">
+    <nav class="navbar navbar-1 navbar-expand-lg bg-black">
       <div class="container">
-        <a class="navbar-brand p-0" href="#">
-          <img src="assets/images/logo.png" alt="Logo" width="216" height="51"
+        <a class="navbar-brand p-0" href="/">
+          <img src="assets/images/logo.webp" alt="Logo" width="216" height="51"
             class="logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasDarkNavbar"
-          aria-controls="offcanvasDarkNavbar"
-          aria-label="Toggle navigation">
-          <img src="assets/images/navbar-toggler.svg" alt="navbar-toggler">
+        <button class="navbar-toggler border-0 p-0 shadow-none collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
-        <div class="offcanvas offcanvas-top text-bg-dark h-100 bg-black"
-          tabindex="-1"
-          id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-          <div class="offcanvas-header p-4">
-            <button
-              class="btn btn-primary contact-us-btn order-first d-none d-sm-flex">Contact
-              us</button>
-            <a class="navbar-brand circle-logo d-none d-sm-flex" href="#">
-              <img src="assets/images/logo.png" alt="Logo" width="216"
-                height="51"
-                class="logo">
-            </a>
-            <button type="button" class="btn order-last ms-auto ms-sm-0"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close">
-              <img src="assets/images/close.svg"
-                class="logo" width="25">
-            </button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-center flex-grow-1">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Interior Design</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Real Estate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Construction</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Join us</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav justify-content-between ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About
+                us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Interior Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Real Estate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Construction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="our-team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="join-us.html">Join
+                us</a>
+            </li>
+          </ul>
         </div>
-        <button class="btn btn-primary contact-us-btn">Contact
+        <button class="btn btn-primary contact-us-btn order-first order-lg-last">Contact
           us</button>
       </div>
     </nav>
-   <!--interior-design-->
-   <section class="interior-design">
-  
-    <div class="interior-top">
-      <img src="./assets/images/Rectangle 1.webp" alt="interior">
-      <div class="box">
-       <h1 class="title">Interior Design</h1>
-       <p class="description">We provide you with full support when it comes to both 
-          planning and decorating your property's interiors. Interior
-           design is a form of art meant to breathe life into a particular space, 
-           we understand this and provide you with a range of cutting edge options.</p>
-      </div>
-     </div>
-   <div class="container initial-details">
-    <img src="./assets/images/image 4.webp" alt="initial-details">
-    <button class="filtter-btn">
-        <img src="./assets/images/Vector.png" alt="Vector">
-        Filter
-    </button>
-    <div class="row">
-        <div class="col-12 col-md-4  p-0">
-         <div class="card">
-          <div class="card-img">
-            <img src="./assets/images/villa1.webp" alt="">
-            <span>Villa</span>
-          </div>
-          <div class="card-info">
-            <h3>VILLA 1</h3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-            <div class="last-section">
-                <div class="box-s">
-                    <img src="./assets/images/Vector (1).svg" alt="">
-                    <span>2</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (2).svg" alt="">
-                    <span>2</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (3).svg" alt="">
-                    <span>3</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (4).svg" alt="">
-                    <span>623 Sqft</span>
-                </div>
-            </div>
-          </div>
-         </div>
+    <!--interior-design-->
+    <section class="interior-design">
+
+      <div class="interior-top">
+        <img src="./assets/images/Rectangle 1.webp" alt="interior">
+        <div class="box">
+          <h1 class="title">Interior Design</h1>
+          <p class="description">We provide you with full support when it comes
+            to both
+            planning and decorating your property's interiors. Interior
+            design is a form of art meant to breathe life into a particular
+            space,
+            we understand this and provide you with a range of cutting edge
+            options.</p>
         </div>
-        <div class="col-12 col-md-4 p-0">
-          <div class="card">
-            <div class="card-img">
-              <img src="./assets/images/villa2.webp" alt="">
-              <span>Villa</span>
-            </div>
-            <div class="card-info">
-              <h3>VILLA 2</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="last-section">
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (1).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (2).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (3).svg" alt="">
-                      <span>3</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (4).svg" alt="">
-                      <span>623 Sqft</span>
-                  </div>
-              </div>
-            </div>
-          </div></div>
+      </div>
+      <div class="container initial-details">
+        <img src="./assets/images/image 4.webp" alt="initial-details">
+        <button class="filtter-btn">
+          <img src="./assets/images/Vector.png" alt="Vector">
+          Filter
+        </button>
+        <div class="row">
           <div class="col-12 col-md-4  p-0">
             <div class="card">
-            <div class="card-img">
-              <img src="./assets/images/villa3.webp" alt="">
-              <span>Villa</span>
+              <div class="card-img">
+                <img src="./assets/images/villa1.webp" alt>
+                <span>Villa</span>
+              </div>
+              <div class="card-info">
+                <h3>VILLA 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="card-info">
-              <h3>VILLA 3</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="last-section">
+          </div>
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/villa2.webp" alt>
+                <span>Villa</span>
+              </div>
+              <div class="card-info">
+                <h3>VILLA 2</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
                   <div class="box-s">
-                      <img src="./assets/images/Vector (1).svg" alt="">
-                      <span>2</span>
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
                   </div>
                   <div class="box-s">
-                      <img src="./assets/images/Vector (2).svg" alt="">
-                      <span>2</span>
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
                   </div>
                   <div class="box-s">
-                      <img src="./assets/images/Vector (3).svg" alt="">
-                      <span>3</span>
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
                   </div>
                   <div class="box-s">
-                      <img src="./assets/images/Vector (4).svg" alt="">
-                      <span>623 Sqft</span>
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
                   </div>
+                </div>
               </div>
             </div></div>
-          </div>
-    </div>
-    <div class="row">
-        
-          <div class="col-12 col-md-4 p-0">
+          <div class="col-12 col-md-4  p-0">
             <div class="card">
-            <div class="card-img">
-              <img src="./assets/images/apartment1.webp" alt="">
-              <span>Apartment</span>
-            </div>
-            <div class="card-info">
-              <h3>APARTMENT 1</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="last-section">
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (1).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (2).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (3).svg" alt="">
-                      <span>3</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (4).svg" alt="">
-                      <span>623 Sqft</span>
-                  </div>
+              <div class="card-img">
+                <img src="./assets/images/villa3.webp" alt>
+                <span>Villa</span>
               </div>
-            </div>
+              <div class="card-info">
+                <h3>VILLA 3</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div></div>
           </div>
         </div>
-        <div class="col-12 col-md-4 p-0">
-          <div class="card">
-            <div class="card-img">
-              <img src="./assets/images/apartment2.webp" alt="">
-              <span>Apartment</span>
-            </div>
-            <div class="card-info">
-              <h3>APARTMENT 1</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="last-section">
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (1).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (2).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (3).svg" alt="">
-                      <span>3</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (4).svg" alt="">
-                      <span>623 Sqft</span>
-                  </div>
-              </div>
-            </div>
-          </div></div>
-          <div class="col-12 col-md-4 p-0">
-            <div class="card">
-            <div class="card-img">
-              <img src="./assets/images/apartment3.webp" alt="">
-              <span>Apartment</span>
-            </div>
-            <div class="card-info">
-              <h3>APARTMENT 1</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="last-section">
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (1).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (2).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (3).svg" alt="">
-                      <span>3</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (4).svg" alt="">
-                      <span>623 Sqft</span>
-                  </div>
-              </div>
-            </div>
-          </div></div>
-    </div>
-    <div class="row">
-        <div class="col-12 col-md-4 p-0">
-          <div class="card">
-          <div class="card-img">
-            <img src="./assets/images/penthouse1.webp" alt="">
-            <span>Penthouse</span>
-          </div>
-          <div class="card-info">
-            <h3>PENTHOUSE 1</h3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-            <div class="last-section">
-                <div class="box-s">
-                    <img src="./assets/images/Vector (1).svg" alt="">
-                    <span>2</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (2).svg" alt="">
-                    <span>2</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (3).svg" alt="">
-                    <span>3</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (4).svg" alt="">
-                    <span>623 Sqft</span>
-                </div>
-            </div>
-          </div>
-        </div></div>
-        <div class="col-12 col-md-4 p-0">
-          <div class="card">
-            <div class="card-img">
-              <img src="./assets/images/penthouse2.webp" alt="">
-              <span>Penthouse</span>
-            </div>
-            <div class="card-info">
-              <h3>PENTHOUSE 2</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="last-section">
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (1).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (2).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (3).svg" alt="">
-                      <span>3</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (4).svg" alt="">
-                      <span>623 Sqft</span>
-                  </div>
-              </div>
-            </div>
-          </div></div>
-          <div class="col-12 col-md-4 p-0">
-            <div class="card">
-            <div class="card-img">
-              <img src="./assets/images/penthouse3.webp" alt="">
-              <span>Penthouse</span>
-            </div>
-            <div class="card-info">
-              <h3>PENTHOUSE 3</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="last-section">
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (1).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (2).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (3).svg" alt="">
-                      <span>3</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (4).svg" alt="">
-                      <span>623 Sqft</span>
-                  </div>
-              </div>
-            </div>
-          </div></div>
-    </div>
-    <div class="row" >
-        <div class="col-12 col-md-4 p-0">
-          <div class="card">
-          <div class="card-img">
-            <img src="./assets/images/Office1.webp" alt="">
-            <span>Office</span>
-          </div>
-          <div class="card-info">
-            <h3>OFFICE 1</h3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-            <div class="last-section">
-                <div class="box-s">
-                    <img src="./assets/images/Vector (1).svg" alt="">
-                    <span>2</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (2).svg" alt="">
-                    <span>2</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (3).svg" alt="">
-                    <span>3</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (4).svg" alt="">
-                    <span>623 Sqft</span>
-                </div>
-            </div>
-          </div>
-        </div></div>
-        <div class="col-12 col-md-4 p-0">
-          <div class="card">
-            <div class="card-img">
-              <img src="./assets/images/Office2.webp" alt="">
-              <span>Office</span>
-            </div>
-            <div class="card-info">
-              <h3>OFFICE 2</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="last-section">
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (1).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (2).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (3).svg" alt="">
-                      <span>3</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (4).svg" alt="">
-                      <span>623 Sqft</span>
-                  </div>
-              </div>
-            </div>
-          </div></div>
-          <div class="col-12 col-md-4 p-0">
-            <div class="card">
-            <div class="card-img">
-              <img src="./assets/images/Office3.webp" alt="">
-              <span>Office</span>
-            </div>
-            <div class="card-info">
-              <h3>OFFICE 3</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="last-section">
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (1).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (2).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (3).svg" alt="">
-                      <span>3</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (4).svg" alt="">
-                      <span>623 Sqft</span>
-                  </div>
-              </div>
-            </div>
-          </div></div>
-    </div>
-    <div class="row">
-        <div class="col-12 col-md-4 p-0">
-          <div class="card">
-          <div class="card-img">
-            <img src="./assets/images/Office1.webp" alt="">
-            <span>Office</span>
-          </div>
-          <div class="card-info">
-            <h3>OFFICE 1</h3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-            <div class="last-section">
-                <div class="box-s">
-                    <img src="./assets/images/Vector (1).svg" alt="">
-                    <span>2</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (2).svg" alt="">
-                    <span>2</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (3).svg" alt="">
-                    <span>3</span>
-                </div>
-                <div class="box-s">
-                    <img src="./assets/images/Vector (4).svg" alt="">
-                    <span>623 Sqft</span>
-                </div>
-            </div>
-          </div>
-        </div></div>
-        <div class="col-12 col-md-4 p-0">
-          <div class="card">
-            <div class="card-img">
-              <img src="./assets/images/Office2.webp" alt="">
-              <span>Office</span>
-            </div>
-            <div class="card-info">
-              <h3>OFFICE 2</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="last-section">
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (1).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (2).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (3).svg" alt="">
-                      <span>3</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (4).svg" alt="">
-                      <span>623 Sqft</span>
-                  </div>
-              </div>
-            </div>
-          </div></div>
-          <div class="col-12 col-md-4 p-0">
-            <div class="card">
-            <div class="card-img">
-              <img src="./assets/images/Office3.webp" alt="">
-              <span>Office</span>
-            </div>
-            <div class="card-info">
-              <h3>OFFICE 3</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-              <div class="last-section">
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (1).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (2).svg" alt="">
-                      <span>2</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (3).svg" alt="">
-                      <span>3</span>
-                  </div>
-                  <div class="box-s">
-                      <img src="./assets/images/Vector (4).svg" alt="">
-                      <span>623 Sqft</span>
-                  </div>
-              </div>
-            </div>
-          </div></div>
-    </div>
-    <div class="our-philosophy">
-        <h2>OUR PHILOSOPHY</h2>
-        <div class="bg-image">
-            <p>We adapt to your needs, your desires and the layout of your property</p>
-        </div>
-    </div>
-    
-   </div>
+        <div class="row">
 
-   <!--contact-us-->
-   <div class="contact-us">
-    <h2>Contact Us</h2>
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-6">
-           <form action="">
-            <input type="text" placeholder="First Name" required>
-            <input type="text" placeholder="Last Name" required>
-            <input type="email" placeholder="Email" required>
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  All Types
-              </button>
-              
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item dropdown1" href="#">0</a></li>
-                <li><a class="dropdown-item dropdown1" href="#">1</a></li>
-                <li><a class="dropdown-item dropdown1" href="#">2</a></li>
-            
-              </ul>
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/apartment1.webp" alt>
+                <span>Apartment</span>
+              </div>
+              <div class="card-info">
+                <h3>APARTMENT 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <textarea rows="4" cols="50" placeholder="Your Message"></textarea>
-           
-            <button class="Submit">Submit</button>
-           </form>
+          </div>
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/apartment2.webp" alt>
+                <span>Apartment</span>
+              </div>
+              <div class="card-info">
+                <h3>APARTMENT 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/apartment3.webp" alt>
+                <span>Apartment</span>
+              </div>
+              <div class="card-info">
+                <h3>APARTMENT 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
         </div>
-        <div class="col-12 col-md-6 gallery">
-       <img src="./assets/images/Group 212.webp" alt="">
+        <div class="row">
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/penthouse1.webp" alt>
+                <span>Penthouse</span>
+              </div>
+              <div class="card-info">
+                <h3>PENTHOUSE 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/penthouse2.webp" alt>
+                <span>Penthouse</span>
+              </div>
+              <div class="card-info">
+                <h3>PENTHOUSE 2</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/penthouse3.webp" alt>
+                <span>Penthouse</span>
+              </div>
+              <div class="card-info">
+                <h3>PENTHOUSE 3</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
         </div>
-    </div>
-</div>
-   </div>
-   </section>
-   <!--/interior-design-->
+        <div class="row">
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/Office1.webp" alt>
+                <span>Office</span>
+              </div>
+              <div class="card-info">
+                <h3>OFFICE 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/Office2.webp" alt>
+                <span>Office</span>
+              </div>
+              <div class="card-info">
+                <h3>OFFICE 2</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/Office3.webp" alt>
+                <span>Office</span>
+              </div>
+              <div class="card-info">
+                <h3>OFFICE 3</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/Office1.webp" alt>
+                <span>Office</span>
+              </div>
+              <div class="card-info">
+                <h3>OFFICE 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/Office2.webp" alt>
+                <span>Office</span>
+              </div>
+              <div class="card-info">
+                <h3>OFFICE 2</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+          <div class="col-12 col-md-4 p-0">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/images/Office3.webp" alt>
+                <span>Office</span>
+              </div>
+              <div class="card-info">
+                <h3>OFFICE 3</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip.</p>
+                <div class="last-section">
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (1).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (2).svg" alt>
+                    <span>2</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (3).svg" alt>
+                    <span>3</span>
+                  </div>
+                  <div class="box-s">
+                    <img src="./assets/images/Vector (4).svg" alt>
+                    <span>623 Sqft</span>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+        </div>
+        <div class="our-philosophy">
+          <h2>OUR PHILOSOPHY</h2>
+          <div class="bg-image">
+            <p>We adapt to your needs, your desires and the layout of your
+              property</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!--contact-us-->
+      <div class="contact-us">
+        <h2>Contact Us</h2>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+              <form action>
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+                <input type="email" placeholder="Email" required>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle"
+                    type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    All Types
+                  </button>
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item dropdown1" href="#">0</a></li>
+                    <li><a class="dropdown-item dropdown1" href="#">1</a></li>
+                    <li><a class="dropdown-item dropdown1" href="#">2</a></li>
+
+                  </ul>
+                </div>
+                <textarea rows="4" cols="50" placeholder="Your Message"></textarea>
+
+                <button class="Submit">Submit</button>
+              </form>
+            </div>
+            <div class="col-12 col-md-6 gallery">
+              <img src="./assets/images/Group 212.webp" alt>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/interior-design-->
     <!-- Footer -->
     <footer class="bg-black text-white">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4 footer-logo mb-5 mb-lg-0">
             <a class="navbar-brand p-0" href="#">
-              <img src="assets/images/logo.png" alt="Logo" height="114"
+              <img src="assets/images/logo.webp" alt="Logo" height="114"
                 class="logo">
             </a>
             <p>Future-proof your investments by investing in Dubai. The city of
@@ -604,7 +615,7 @@
               lifestyle you deserve.</p>
           </div>
           <div
-            class="col-12 offset-md-3 col-md-3 col-lg-2 offset-lg-1 offset-xl-2 footer-menu mb-5 mb-lg-0">
+            class="col-12 col-md-3 col-lg-2 offset-lg-1 offset-xl-2 footer-menu mb-5 mb-lg-0 order-md-last">
             <ul class="list-unstyled">
               <li><a href="#">Home</a></li>
               <li><a href="#">Interior Design</a></li>
@@ -615,7 +626,8 @@
               <li><a href="#">Contact us</a></li>
             </ul>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 offset-lg-2 col-xl-2 footer-info">
+          <div
+            class="col-12 col-md-6 col-lg-3 offset-lg-2 col-xl-2 footer-info order-lg-last">
             <div class="footer-info-row">
               <h6>Address</h6>
               <p>1604-1605 Damac XL Tower
