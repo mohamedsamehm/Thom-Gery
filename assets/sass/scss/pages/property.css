@@ -1,0 +1,126 @@
+.property-page {
+  background-color: #000;
+}
+.property-page .page-heading {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%), url("../../../images/Rectangle 1 (5).webp");
+  color: #fff;
+}
+.property-page .section-title {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 19px;
+}
+@media (max-width: 992px) {
+  .property-page .section-title {
+    font-size: 28px;
+  }
+}
+.property-page .section-description {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  margin: 0 auto 64px;
+  max-width: 646px;
+}
+.property-page .property-section {
+  padding-top: 78px;
+  margin-bottom: 90px;
+}
+.property-page .property-section .carousel .carousel-inner {
+  max-width: 90%;
+  margin: auto;
+}
+.property-page .property-section .carousel .carousel-inner .property-image {
+  margin-bottom: 8px;
+}
+.property-page .property-section .carousel .carousel-inner .property-image img {
+  width: 500px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.property-page .property-section .carousel .carousel-inner .property-image-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.property-page .property-section .carousel .carousel-inner .property-image-info .box-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 105px;
+  flex: 1;
+  gap: 8px;
+}
+.property-page .property-section .carousel .carousel-inner .property-image-info .box-wrapper .box-s {
+  display: flex;
+  padding: 7px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  height: 51px;
+}
+.property-page .property-section .carousel .carousel-inner .property-info .span-group {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 32px;
+}
+.property-page .property-section .carousel .carousel-inner .property-info .span-group button {
+  border-radius: 3000px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 10px;
+  padding: 3px 12px;
+}
+.property-page .property-section .carousel .carousel-inner .property-info .span-group button.span1 {
+  color: #000;
+  background: #fff;
+  border: 1px solid #fff;
+}
+.property-page .property-section .carousel .carousel-inner .property-info .span-group button.span2 {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  background: #dd9934;
+}
+.property-page .property-section .carousel .carousel-inner .property-info .span-group button.span3 {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  background: #000;
+}
+.property-page .property-section .carousel .carousel-inner .property-info h3 {
+  margin-bottom: 15px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+}
+.property-page .property-section .carousel .carousel-inner .property-info p {
+  color: rgba(219, 217, 217, 0.7);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.property-page .property-section .carousel .carousel-control-prev {
+  justify-content: flex-start;
+}
+.property-page .property-section .carousel .carousel-control-next {
+  justify-content: flex-end;
+}
+.property-page .property-section .carousel .carousel-control-prev,
+.property-page .property-section .carousel .carousel-control-next {
+  align-items: center;
+  width: 5%;
+}/*# sourceMappingURL=property.css.map */

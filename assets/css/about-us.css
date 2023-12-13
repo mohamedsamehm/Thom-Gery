@@ -2,8 +2,7 @@
   background-color: #000;
 }
 .about-us-page .page-heading {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%),
-    url("../images/about-us.webp");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%), url("../images/about-us.webp");
   color: #fff;
 }
 .about-us-page .section-title {
@@ -34,7 +33,7 @@
 .about-us-page .full-story img {
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   max-height: 673px;
 }
 @media (min-width: 992px) {
@@ -75,7 +74,7 @@
 .about-us-page .our-values .our-values-images .image-2 img {
   height: 451px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .about-us-page .our-values .our-values-info h4 {
   color: #dd9934;
@@ -155,7 +154,7 @@
 }
 .about-us-page .our-clients-stories .carousel .our-client-profile img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   transform: translateY(-20px);
 }
 .about-us-page .our-clients-stories .carousel .our-client-title {
@@ -217,9 +216,7 @@
   font-weight: 400;
   line-height: 25.236px;
 }
-.about-us-page .contact-us .contact-us-form input::-moz-placeholder,
-.about-us-page .contact-us .contact-us-form select::-moz-placeholder,
-.about-us-page .contact-us .contact-us-form textarea::-moz-placeholder {
+.about-us-page .contact-us .contact-us-form input::-moz-placeholder, .about-us-page .contact-us .contact-us-form select::-moz-placeholder, .about-us-page .contact-us .contact-us-form textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.7) !important;
 }
 .about-us-page .contact-us .contact-us-form input::placeholder,
@@ -264,7 +261,7 @@
   border-radius: 9.316px;
   height: 470px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 @media (max-width: 992px) {
   .about-us-page .contact-us .contact-us-images {
@@ -281,4 +278,4 @@
   .about-us-page .contact-us .contact-us-images .image-2 img {
     height: 350px;
   }
-} /*# sourceMappingURL=about-us.css.map */
+}/*# sourceMappingURL=about-us.css.map */
