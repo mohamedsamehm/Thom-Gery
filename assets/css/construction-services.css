@@ -1,343 +1,368 @@
-
-.construction-services{
-    background-color: #000;
+.construction-services-page {
+  background-color: #000;
 }
 
-.construction-services-top{
-    background-position: top;
-    background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-    url('../images/Rectangle\ 1\ \(3\).webp');
-    width: 100%;
-    height: auto;
-    background-size: contain;
-    background-repeat: no-repeat;
+.construction-services {
+  background-color: #000;
 }
 
-.overflow{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 88px;
+.construction-services-top {
+  background-position: top;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url("../images/Rectangle\ 1\ \(3\).webp");
+  width: 100%;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.overflow-box{
-    width: 67%;
-    margin-top: 106px;
+
+.overflow {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 88px;
 }
-.box{
-    width: 100%;
-    height: auto;
-    padding-top: 112px;
-    flex-shrink: 0;
-    background: rgba(0, 0, 0, 0.7);
-    text-align: center;
+.overflow-box {
+  width: 67%;
+  margin-top: 106px;
 }
-.box .title{
-    width: 100%;
-    margin: auto;
-    color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 60px;
-font-weight: 700;
-line-height: 63.41px; 
-text-transform: uppercase;
-margin-bottom: 19px;
+.box {
+  width: 100%;
+  height: auto;
+  padding-top: 112px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
 }
-.box .description{
-    width: 64%;
-    margin: auto;
-    color: #DBD9D9;
-text-align: center;
-font-family: Roboto;
-font-size: 18px;
-font-weight: 400;
-line-height: 31.5px;
-margin-bottom: 37px;
+.box .title {
+  width: 100%;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 63.41px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
 }
-.btn-bottm-group{
-    width: 100%;
-    margin: 60px auto 0px;
+.box .description {
+  width: 64%;
+  margin: auto;
+  color: #dbd9d9;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31.5px;
+  margin-bottom: 37px;
 }
-  .btn-white{
-    width: 100%;
-    padding: 5px 10px;
-    border-radius: 5px;
-border: 1px solid #FFF;
-background-color: transparent;
-color: #FFF;
-font-family: Roboto;
-max-width: 262px;
-font-size: 22px;
-font-weight: 700;
-line-height: 30.8px;
-  }
-  .btn-white:hover{
-    border: 1px solid #DD9934;
-  }
-  .slider-section{
-    padding-top: 60px;
-    padding-bottom: 58px;
-    justify-content: space-between;
-  }
-  @media screen and (max-width:1310px ) and (min-width:1200px ){
-    .btn-white{
-        padding: 5px ;
+.btn-bottm-group {
+  width: 100%;
+  margin: 60px auto 0px;
+}
+.btn-white {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-family: Roboto;
+  max-width: 262px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30.8px;
+}
+.btn-white:hover {
+  border: 1px solid #dd9934;
+}
+.slider-section {
+  padding-top: 60px;
+  padding-bottom: 58px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1310px) and (min-width: 1200px) {
+  .btn-white {
+    padding: 5px;
     font-size: 12px;
-      }
   }
-@media (max-width:1200px){
-   
-    .box .title{
-        margin-top: 30px;
-        font-size: 40px;
-    }
-    .btn-group {  
-        width: 90%;
-       }
-    .overflow-box{
-        width: 80%;
-    }   
-    .btn-bottm-group {
-        width: 100%;
-    }
-    .btn-white{
-        padding: 5px;
-        font-size: 15px;
-    }
 }
-@media (max-width:769px){
-    
-    .btn-white{
-        margin-bottom: 10px;
-    }
-  
-    .box{
-        top: 15px;
-    }
-    .box .title{
-        font-size: 35px;
-    }
-    .box .description{
-        font-size: 15px;
+@media (max-width: 1200px) {
+  .box .title {
+    margin-top: 30px;
+    font-size: 40px;
+  }
+  .btn-group {
+    width: 90%;
+  }
+  .overflow-box {
+    width: 80%;
+  }
+  .btn-bottm-group {
+    width: 100%;
+  }
+  .btn-white {
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 769px) {
+  .btn-white {
+    margin-bottom: 10px;
+  }
+
+  .box {
+    top: 15px;
+  }
+  .box .title {
+    font-size: 35px;
+  }
+  .box .description {
+    font-size: 15px;
     line-height: 22.5px;
-    }
-    .slider-section{
-        justify-content: center;
-      }
+  }
+  .slider-section {
+    justify-content: center;
+  }
 }
-@media (max-width:600px){
-    .box .description {
-        width: 90%;}
-        .box .title {
-            font-size: 25px;
-            margin-top: 10px;
-            margin-bottom: 5px;
-        }
+@media (max-width: 600px) {
+  .box .description {
+    width: 90%;
+  }
+  .box .title {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
 }
 /*CONTRACTING SERVICES*/
-.service-box{
-    margin-bottom: 20px;
-    height: 350px;
-    padding: 45.6px 25px 51px;
-    border-radius: 10px;
-    text-align: center;
-background: rgba(255, 255, 255, 0.08);
+.service-box {
+  margin-bottom: 20px;
+  height: 350px;
+  padding: 45.6px 25px 51px;
+  border-radius: 10px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.08);
 }
-.service-box .circle{
-    margin: auto;
-    margin-bottom: 20px;
-    display: flex;
-width: 86px;
-height: 86px;
-justify-content: center;
-align-items: center;
-border-radius: 300px;
-background: rgba(221, 153, 52, 0.10);
+.service-box .circle {
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  width: 86px;
+  height: 86px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 300px;
+  background: rgba(221, 153, 52, 0.1);
 }
-.service-box h4{
-    color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 25px;
-font-weight: 600;
+.service-box h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 600;
 }
-.service-box p{
-    color: rgba(219, 217, 217, 0.70);
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px; 
+.service-box p {
+  color: rgba(219, 217, 217, 0.7);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 /*Our-Client*/
 
 .our-clients-stories {
-    margin-bottom: 135px;
-  }
-  .our-clients-stories h2 {
-    margin-bottom: 19px;
-  }
+  margin-bottom: 135px;
+}
+.our-clients-stories h2 {
+  margin-bottom: 19px;
+}
+.our-clients-stories .carousel::before {
+  content: "";
+  background-image: url("../images/double-quotes-icon.svg");
+  width: 55.987px;
+  height: 44.79px;
+  display: block;
+  left: 10%;
+  position: relative;
+  background-size: cover;
+}
+.our-clients-stories .carousel .carousel-inner {
+  max-width: 70%;
+  margin: auto;
+}
+.our-clients-stories .carousel .carousel-control-prev {
+  justify-content: flex-start;
+}
+.our-clients-stories .carousel .carousel-control-next {
+  justify-content: flex-end;
+}
+.our-clients-stories .carousel .carousel-control-prev,
+.our-clients-stories .carousel .carousel-control-next {
+  padding-top: 8%;
+  align-items: flex-start;
+}
+.our-clients-stories .carousel .our-client-desc {
+  font-size: 21px;
+  line-height: 47.5px;
+  margin-bottom: 56px;
+}
+.our-clients-stories .carousel .our-client-profile {
+  border-radius: 102px;
+  border: 2px solid #dd9934;
+  width: 102px;
+  height: 102px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.our-clients-stories .carousel .our-client-profile img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  transform: translateY(-20px);
+}
+.our-clients-stories .carousel .our-client-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 23.333px;
+  font-weight: 700;
+}
+@media (max-width: 992px) {
   .our-clients-stories .carousel::before {
-    content: "";
-    background-image: url("../images/double-quotes-icon.svg");
-    width: 55.987px;
-    height: 44.79px;
-    display: block;
-    left: 10%;
-    position: relative;
-    background-size: cover;
-  }
-  .our-clients-stories .carousel .carousel-inner {
-    max-width: 70%;
-    margin: auto;
-  }
-  .our-clients-stories .carousel .carousel-control-prev {
-    justify-content: flex-start;
-  }
-  .our-clients-stories .carousel .carousel-control-next {
-    justify-content: flex-end;
+    width: 35.987px;
+    height: 24.79px;
+    left: 1%;
+    top: -2px;
   }
   .our-clients-stories .carousel .carousel-control-prev,
   .our-clients-stories .carousel .carousel-control-next {
-    padding-top: 8%;
-    align-items: flex-start;
+    display: none;
+  }
+  .our-clients-stories .carousel .carousel-inner {
+    max-width: 100% !important;
   }
   .our-clients-stories .carousel .our-client-desc {
-    font-size: 21px;
-    line-height: 47.5px;
-    margin-bottom: 56px;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 36px;
   }
   .our-clients-stories .carousel .our-client-profile {
-    border-radius: 102px;
-    border: 2px solid #dd9934;
-    width: 102px;
-    height: 102px;
-    overflow: hidden;
-    margin: auto;
-    margin-bottom: 20px;
-  }
-  .our-clients-stories .carousel .our-client-profile img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    transform: translateY(-20px);
+    border-radius: 82px;
+    width: 82px;
+    height: 82px;
   }
   .our-clients-stories .carousel .our-client-title {
-    font-family: "Poppins", sans-serif;
-    font-size: 23.333px;
-    font-weight: 700;
+    font-size: 16px;
   }
-  @media (max-width: 992px) {
-    .our-clients-stories .carousel::before {
-      width: 35.987px;
-      height: 24.79px;
-      left: 1%;
-      top: -2px;
-    }
-    .our-clients-stories .carousel .carousel-control-prev,
-    .our-clients-stories .carousel .carousel-control-next {
-      display: none;
-    }
-    .our-clients-stories .carousel .carousel-inner {
-      max-width: 100% !important;
-    }
-    .our-clients-stories .carousel .our-client-desc {
-      font-size: 14px;
-      line-height: 30px;
-      margin-bottom: 36px;
-    }
-    .our-clients-stories .carousel .our-client-profile {
-      border-radius: 82px;
-      width: 82px;
-      height: 82px;
-    }
-    .our-clients-stories .carousel .our-client-title {
-      font-size: 16px;
-    }
-  }
-
+}
 
 /*------CONTACTUS-----*/
-.contact-us{
-    background: rgba(221, 153, 52, 0.14);
-}
-.contact-us h2{
-    padding-top: 56px;
-    padding-bottom: 49px;
-    margin:  auto ;
-    color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 40px;
-font-weight: 700;
-line-height: 140%;
-}
-.contact-us input ,.contact-us textarea,
-.contact-us .dropdown .dropdown-toggle{
-    width: 100%;
-    height: 65.21px;
-    text-align: left!important;
-    border-radius: 9.316px;
-border: 0.932px solid rgba(255, 255, 255, 0.20);
-background: rgba(255, 255, 255, 0.10);
-margin-bottom: 20px;
-font-family: Roboto;
-padding-left: 20px;
-color: rgba(255, 255, 255, 0.70);
-}
 
-.dropdown .dropdown-menu{
+.construction-services-page .contact-us {
+  background: rgba(221, 153, 52, 0.14);
+  padding: 56px 0 54px 0;
+}
+.construction-services-page .contact-us h2 {
+  margin-bottom: 49px;
+}
+.construction-services-page .contact-us .contact-us-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20.49px;
+}
+.construction-services-page .contact-us .contact-us-form input,
+.construction-services-page .contact-us .contact-us-form select,
+.construction-services-page .contact-us .contact-us-form textarea {
+  padding: 19.56px 20px;
+  border-radius: 9.316px;
+  border: 0.932px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 16.768px;
+  font-weight: 400;
+  line-height: 25.236px;
+}
+.construction-services-page
+  .contact-us
+  .contact-us-form
+  input::-moz-placeholder,
+.construction-services-page
+  .contact-us
+  .contact-us-form
+  select::-moz-placeholder,
+.construction-services-page
+  .contact-us
+  .contact-us-form
+  textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.construction-services-page .contact-us .contact-us-form input::placeholder,
+.construction-services-page .contact-us .contact-us-form select::placeholder,
+.construction-services-page .contact-us .contact-us-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.construction-services-page .contact-us .contact-us-form textarea {
+  width: 100%;
+  height: 170px;
+}
+.construction-services-page .contact-us .contact-us-form button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 9.32px 0;
+  height: 66px;
+  border-radius: 5px;
+}
+.construction-services-page .contact-us .contact-us-images {
+  position: relative;
+  padding: 15px 0 0 0;
+  max-width: 545px;
+  margin: auto;
+}
+.construction-services-page .contact-us .contact-us-images .image-1 {
+  width: 49.5%;
+  z-index: 2;
+  left: 0;
+  position: absolute;
+}
+.construction-services-page .contact-us .contact-us-images .image-1 img {
+  border-radius: 9.316px;
+  height: 403px;
+}
+.construction-services-page .contact-us .contact-us-images .image-2 {
+  width: 80%;
+  top: 100px;
+  position: relative;
+}
+.construction-services-page .contact-us .contact-us-images .image-2 img {
+  border-radius: 9.316px;
+  height: 470px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 992px) {
+  .construction-services-page .contact-us .contact-us-images {
+    margin: 80px auto 160px auto;
+    max-width: 460px;
+  }
+  .construction-services-page .contact-us .contact-us-images .image-1 {
+    width: 55%;
+  }
+  .construction-services-page .contact-us .contact-us-images .image-1 img {
+    height: 320px;
     width: 100%;
- }
- 
- .dropdown .dropdown-menu li:hover a,.dropdown .dropdown-menu.lastmenu li:hover{
-     background-color: #f7f7f7!important;
-     color: #aaaaaa!important;
- } 
- .dropdown-toggle{
-     position: relative;
- }
- .dropdown-toggle:after{
- position: absolute;
- top: 22px;
- right: 20px;
- border: none!important;
- content: "\f107"!important;
- font: normal normal normal 14px/1 FontAwesome;
- font-size: 18px!important;
- font-weight: 600!important;
- 
- 
- }
- 
-.contact-us textarea{
-    height: 169.546px;
-}
-.contact-us input::placeholder ,
-.contact-us textarea::placeholder 
-{
-    color: rgba(255, 255, 255, 0.70);
-font-family: Roboto;
-font-size: 16.768px;
-font-weight: 400;
-line-height: 51.236px; 
-letter-spacing: -0.503px;
-}
-.contact-us .Submit{
-    height: 66.142px;
-padding: 9.316px;
-border-radius: 5px;
-background: #DD9934;
-text-align: center;
-color: #FFF;
-font-family: Roboto;
-font-size: 20px;
-font-weight: 700;
-width: 100%;
-border: none;
-margin-bottom: 49px;
-outline: none;
+  }
+  .construction-services-page .contact-us .contact-us-images .image-2 img {
+    height: 350px;
+  }
 }

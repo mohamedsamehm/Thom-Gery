@@ -265,7 +265,7 @@
 }
 @media (max-width: 992px) {
   .about-us-page .contact-us .contact-us-images {
-    margin: 160px auto 0 auto;
+    margin: 8px auto 160px auto;
     max-width: 460px;
   }
   .about-us-page .contact-us .contact-us-images .image-1 {

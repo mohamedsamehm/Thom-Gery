@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets//css/construction-services.css">
   </head>
-  <body>
+  <body class="construction-services-page">
     <!-- Navbar -->
     <nav class="navbar navbar-1 navbar-expand-lg bg-black">
       <div class="container">
@@ -400,37 +400,37 @@
           </div>
         </div>
       </section>
-      <!--contact-us-->
-      <div class="contact-us">
-        <h2>Contact Us</h2>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-12 col-md-6">
-              <form action>
-                <input type="text" placeholder="First Name" required>
-                <input type="text" placeholder="Last Name" required>
-                <input type="email" placeholder="Email" required>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle"
-                    type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    All Types
-                  </button>
+    </section>
 
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item dropdown1" href="#">0</a></li>
-                    <li><a class="dropdown-item dropdown1" href="#">1</a></li>
-                    <li><a class="dropdown-item dropdown1" href="#">2</a></li>
-
-                  </ul>
-                </div>
-                <textarea rows="4" cols="50" placeholder="Your Message"></textarea>
-
-                <button class="Submit">Submit</button>
-              </form>
-            </div>
-            <div class="col-12 col-md-6 gallery">
-              <img src="./assets/images/Group 212.webp" alt>
+    <section class="contact-us">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <form class="contact-us-form">
+              <input type="text" class="form-control" placeholder="First Name">
+              <input type="text" class="form-control" placeholder="Last Name">
+              <input type="email" class="form-control" placeholder="Email">
+              <select class="form-select">
+                <option selected>Real Estate</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <textarea name="message" class="form-control"
+                placeholder="Your message"></textarea>
+              <button class="btn-primary w-100">Submit</button>
+            </form>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div
+              class="contact-us-images d-flex align-items-end flex-column mx-auto mx-lg-0 ms-auto">
+              <div class="image-1">
+                <img src="assets/images/contact-us-1.webp" alt="contact us 1">
+              </div>
+              <div class="image-2">
+                <img src="assets/images/contact-us-2.webp" alt="contact us 1">
+              </div>
             </div>
           </div>
         </div>
