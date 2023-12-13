@@ -1,6 +1,19 @@
 .construction-services-page {
   background-color: #000;
 }
+.construction-services-page .section-title {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 19px;
+}
+@media (max-width: 992px) {
+  .construction-services-page .section-title {
+    font-size: 28px;
+  }
+}
 
 .construction-services {
   background-color: #000;

@@ -2,7 +2,7 @@
   background-color: #000;
 }
 .real-estate-support-page .page-heading {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%), url("../images/real-estate-support.webp");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%), url("../../../images/real-estate-support.webp");
   color: #fff;
 }
 .real-estate-support-page .section-title {
@@ -158,7 +158,7 @@
 }
 @media (max-width: 992px) {
   .real-estate-support-page .contact-us .contact-us-images {
-    margin: 160px auto 0 auto;
+    margin: 80px auto 160px auto;
     max-width: 460px;
   }
   .real-estate-support-page .contact-us .contact-us-images .image-1 {
