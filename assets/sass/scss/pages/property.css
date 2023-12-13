@@ -36,18 +36,20 @@
 }
 .property-page .property-section .property-image-info {
   display: flex;
-  align-items: flex-start;
+  margin-top: 6px;
+  align-items: center;
+  justify-content: flex-end;
   gap: 8px;
 }
 .property-page .property-section .property-image-info .box-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr) 105px;
-  flex: 1;
-  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 49px;
+  gap: 5px;
 }
 .property-page .property-section .property-image-info .box-wrapper .box-s {
   display: flex;
-  padding: 7px 8px;
+  padding: 7px 14px;
   justify-content: center;
   align-items: center;
   gap: 8px;
@@ -58,7 +60,10 @@
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
-  height: 51px;
+}
+.property-page .property-section .property-image-info .btn-primary {
+  border-radius: 5px;
+  padding: 10px;
 }
 .property-page .property-section .property-info .span-group {
   display: flex;
