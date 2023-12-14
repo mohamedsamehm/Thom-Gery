@@ -14,13 +14,13 @@
   max-width: 100%;
 }
 .images-wrapper .col-image-1 {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.57)), url("../images/1.webp");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.57)), url("../../../images/1.webp");
 }
 .images-wrapper .col-image-2 {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.57)), url("../images/2.webp");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.57)), url("../../../images/2.webp");
 }
 .images-wrapper .col-image-3 {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.57)), url("../images/3.webp");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.57)), url("../../../images/3.webp");
 }
 .images-wrapper .btn-outline-primary {
   height: 60px;

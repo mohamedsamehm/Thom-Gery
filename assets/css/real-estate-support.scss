@@ -2,7 +2,7 @@
   background-color: #000;
   .page-heading {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%),
-      url("../images/real-estate-support.webp");
+      url("../../../images/real-estate-support.webp");
     color: #fff;
   }
   .section-title {
@@ -107,6 +107,11 @@
           color: rgba(255, 255, 255, 0.7) !important;
         }
       }
+      select {
+        option {
+          color: #000;
+        }
+      }
       textarea {
         width: 100%;
         height: 170px;
@@ -146,7 +151,7 @@
         }
       }
       @media (max-width: 992px) {
-        margin: 160px auto 0 auto;
+        margin: 80px auto 160px auto;
         max-width: 460px;
         .image-1 {
           width: 55%;

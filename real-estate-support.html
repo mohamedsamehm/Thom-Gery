@@ -36,27 +36,25 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav justify-content-between ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About
-                us</a>
+              <a class="nav-link" href="about-us.html">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Interior Design</a>
+              <a class="nav-link" href="interior-design.html">Interior Design</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="real-estate-support.html">Real Estate</a>
+              <a class="nav-link" href="real-estate.html">Real Estate</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Construction</a>
+              <a class="nav-link" href="construction-services.html">Construction</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="our-team.html">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="join-us.html">Join
-                us</a>
+              <a class="nav-link" href="join-us.html">Join us</a>
             </li>
           </ul>
         </div>
@@ -194,18 +192,21 @@
         <h2 class="section-title">Contact Us</h2>
         <div class="row">
           <div class="col-12 col-lg-6">
-            <form class="contact-us-form">
-              <input type="text" class="form-control" placeholder="First Name">
-              <input type="text" class="form-control" placeholder="Last Name">
-              <input type="email" class="form-control" placeholder="Email">
-              <select class="form-select">
+            <form class="contact-us-form needs-validation" novalidate>
+              <input type="text" class="form-control" placeholder="First Name"
+                required>
+              <input type="text" class="form-control" placeholder="Last Name"
+                required>
+              <input type="email" class="form-control" placeholder="Email"
+                required>
+              <select class="form-select" required>
                 <option selected>Real Estate</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </select>
               <textarea name="message" class="form-control"
-                placeholder="Your message"></textarea>
+                placeholder="Your message" required></textarea>
               <button class="btn-primary w-100">Submit</button>
             </form>
           </div>
@@ -241,12 +242,12 @@
           <div
             class="col-12 col-md-3 col-lg-2 offset-lg-1 offset-xl-2 footer-menu mb-5 mb-lg-0 order-md-last">
             <ul class="list-unstyled">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Interior Design</a></li>
-              <li><a href="#">Real Estate</a></li>
-              <li><a href="#">Construction</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Join us</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="interior-design.html">Interior Design</a></li>
+              <li><a href="Real-estate.html">Real Estate</a></li>
+              <li><a href="construction-services.html">Construction</a></li>
+              <li><a href="about-us.html">About us</a></li>
+              <li><a href="join-us.html">Join us</a></li>
               <li><a href="#">Contact us</a></li>
             </ul>
           </div>

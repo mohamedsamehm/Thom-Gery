@@ -8,10 +8,12 @@
   font-weight: 700;
   line-height: 140%;
   margin-bottom: 19px;
+  text-transform: capitalize;
 }
 @media (max-width: 992px) {
   .homesection-page .section-title {
     font-size: 28px;
+    margin-bottom: 30px;
   }
 }
 .home {
@@ -110,7 +112,7 @@
   background-color: transparent;
   color: #fff;
   font-family: Roboto;
-  max-width: 262px;
+  max-width: 264px;
   font-size: 22px;
   font-weight: 700;
   line-height: 30.8px;

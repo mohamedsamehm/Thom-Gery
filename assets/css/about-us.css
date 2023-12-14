@@ -2,7 +2,7 @@
   background-color: #000;
 }
 .about-us-page .page-heading {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%), url("../images/about-us.webp");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.33) 0%, #000 100%), url("../../../images/about-us.webp");
   color: #fff;
 }
 .about-us-page .section-title {
@@ -224,6 +224,9 @@
 .about-us-page .contact-us .contact-us-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.7) !important;
 }
+.about-us-page .contact-us .contact-us-form select option {
+  color: #000;
+}
 .about-us-page .contact-us .contact-us-form textarea {
   width: 100%;
   height: 170px;
@@ -265,7 +268,7 @@
 }
 @media (max-width: 992px) {
   .about-us-page .contact-us .contact-us-images {
-    margin: 80px auto 160px auto;
+    margin: 160px auto 0 auto;
     max-width: 460px;
   }
   .about-us-page .contact-us .contact-us-images .image-1 {

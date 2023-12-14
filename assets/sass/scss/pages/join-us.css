@@ -49,6 +49,9 @@
   border: 0.932px solid rgba(255, 255, 255, 0.2) !important;
   outline: none;
 }
+.join-us-page .contact-us .contact-us-form select option {
+  color: #000;
+}
 .join-us-page .contact-us .contact-us-form.was-validated .file-drop-area:has(> .file-input:invalid), .join-us-page .contact-us .contact-us-form.was-validated .file-drop-area:has(> .file-input.is-invalid) {
   --border-color: #dc3545;
 }

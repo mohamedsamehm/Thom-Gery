@@ -305,6 +305,10 @@
   font-weight: 400;
   line-height: 25.236px;
 }
+
+.construction-services-page .contact-us .contact-us-form select option {
+  color: #000;
+}
 .construction-services-page
   .contact-us
   .contact-us-form
